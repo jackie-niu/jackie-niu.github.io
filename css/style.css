@@ -5,10 +5,11 @@
 }
 
 header{
-	background-image: url(../Background.jfif);
+	background-color: #F2F2CE;
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
+	background-repeat: repeat-y;
 }
 
 ul{
