@@ -29,12 +29,13 @@ ul li a{
 }
 
 ul li a:hover{
-	background-color: #000;
+	background-color: #222846;
 	color: #fff;
+	transition: 0.3s;
 }
 
 ul li.active a{
-	background-color: #000;
+	background-color: #222846;
 	color: #fff;
 }
 
