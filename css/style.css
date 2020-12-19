@@ -27,6 +27,7 @@ ul li a{
 	color: #191970;
 	padding: 5px 20px;
 	border: 1px solid transparent;
+	font-size: 16px;
 }
 
 ul li a:hover{
@@ -62,4 +63,98 @@ ul li.active a{
 
 .title h1{
 	font-size: 70px;
+}
+
+.title h2{
+	font-size: 24px;
+}
+
+.title h3{
+	font-size: 19px;
+}
+
+@media screen and (max-width: 1400px) {
+    ul li {
+    	margin-top: 15px;
+    }
+    ul li a{
+    	font-size: 80%;
+    }
+    .title h1{ 
+    	font-size: 60px; 
+    }
+    .title h2{ 
+    	font-size: 25px; 
+    }
+    .title h3{
+    	font-size: 20px; 
+    }
+    .Icon img{ 
+    	margin-left: 5%;
+    	width: 13%; 
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    ul li {
+    	margin-top: 15px;
+    }
+    ul li a{
+    	font-size: 80%;
+    }
+    .title h1{ 
+    	font-size: 50px; 
+    }
+    .title h2{ 
+    	font-size: 20px; 
+    }
+    .title h3{
+    	font-size: 15px; 
+    }
+    .Icon img{ 
+    	margin-left: 5%;
+    	width: 13%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul li {
+    	margin-top: 20px;
+    }
+    ul li a{
+    	font-size: 80%;
+    }
+    .title h1{ 
+    	font-size: 40px; 
+    }
+    .title h2{ 
+    	font-size: 18px; 
+    }
+    .title h3{
+    	font-size: 11px; 
+    }
+    .Icon img{ 
+    	width: 18%; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    ul li {
+    	margin-top: 5px;
+    }
+    ul li a{
+    	font-size: 50%;
+    }
+    .title h1{ 
+    	font-size: 30px; 
+    }
+    .title h2{ 
+    	font-size: 14px; 
+    }
+    .title h3{
+    	font-size: 9px; 
+    }
+    .Icon img{ 
+    	width: 20%; 
+    }
 }
